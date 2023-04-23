@@ -1,0 +1,427 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Scratch Basic - Lab 1: Ecard</title>
+  <link rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid="" id="scratch-basic-lab-1-ecard" title="Scratch Basic - Lab 1: Ecard" environment="web"
+    feedback-link="">
+
+    <google-codelab-step label="Giới thiệu chung" duration="1">
+      <h2 is-upgraded><strong>Bạn sẽ hoàn thành lần lượt</strong></h2>
+      <p>✅Ôn tập kiến thức bài cũ.</p>
+      <p>✅Hoàn thành bộ câu hỏi đánh giá kiến thức.</p>
+      <p>✅Hoàn thành lập trình dự án thử thách lập trình.</p>
+      <h2 is-upgraded><strong>Bạn sẽ cần chuẩn bị</strong></h2>
+      <p>Internet để sử dụng Scratch Online hoặc tải và cài đặt phần mềm về máy tính Scratch</p>
+      <ul>
+        <li>Cách 1: <a href="https://scratch.mit.edu/projects/editor" target="_blank"><paper-button class="colored"
+              raised>Truy cập Scratch Online</paper-button></a></li>
+        <li>Cách 2: <a href="https://scratch.mit.edu/download/" target="_blank"><paper-button class="colored" raised>Tải
+              Scratch về máy tính</paper-button></a></li>
+      </ul>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Scratch là gì?" duration="1">
+      <table>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img alt="HỌC LẬP TRÌNH SCRATCH QUA VIDEO - Em Yêu Tin Học"
+                style="width: 141.33px" src="img\\e7e23d8ccb95dcf4.jpeg"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <ul>
+              <li>Scratch là ngôn ngữ lập trình trực quan gần gũi với trẻ em và phù hợp cho mọi lứa tuổi</li>
+              <li>Scratch giúp ta có thể tự tạo game, phim hoạt hình animations, music hay art theo ý mình bằng các câu
+                lệnh kéo thả</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <h2 is-upgraded><strong>Giao diện Scratch</strong></h2>
+      <p class="image-container"><img style="width: 601.70px" src="img\\5a972602d66e6834.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Các câu lệnh đã học" duration="0">
+      <table>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p>Nhóm</p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Câu lệnh</p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Ý nghĩa câu lệnh</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 88.50px" src="img\\659cfdda92bc9014.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 163.00px" src="img\\60d6096efb0dea55.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Di chuyển 10 bước</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="3">
+            <p class="image-container"><img style="width: 82.00px" src="img\\5e3f4f4a0309ca6a.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 137.00px" src="img\\316cb07076db1c7e.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Dùng để ra lệnh cho nhân vật nói gì đó</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 179.50px" src="img\\89e943a3885b45b8.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Dùng để ra lệnh cho nhân vật nói gì đó trong 2 giây</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 133.00px" src="img\\f6d3b50cb5ebf8ae.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Thay đổi trạng thái/ ngoại hình khác của nhân vật</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 88.48px" src="img\\f91699d788c3e33f.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 166.00px" src="img\\367e5dd39d2944d7.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Vòng lặp liên tục </p>
+          </td>
+        </tr>
+      </table>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Cách đặt tên cho dự án (project) &amp; lưu dự án (save file) trên Scratch" duration="0">
+      <aside class="special">
+        <p>👌 <strong>Từ nay chúng ta sẽ gọi sản phẩm mà mình sẽ làm là 1 dự án hay 1 Project nha.</strong></p>
+      </aside>
+      <p>Sau khi đăng nhập tài khoản Scratch, ta hãy làm theo các bước sau để đặt tên cho dự án (project) và lưu dự án
+        (file) trên Scratch nhé!!!</p>
+      <p class="image-container"><img style="width: 601.70px" src="img\\6a2867ccec62d6ba.png"></p>
+      <p class="image-container"><img style="width: 266.00px" src="img\\392ad107e65a09dc.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Thử thách lập trình" duration="10">
+      <aside class="special">
+        <p>👌 Bây giờ, bạn hãy chọn chọn dự án mình thích và thiết kế dự án đó nhé!</p>
+      </aside>
+      <h2 is-upgraded><strong>Mô tả dự án</strong></h2>
+      <h3 is-upgraded><strong>Tên dự án: Thiệp sinh nhật điện tử Ecard</strong></h3>
+      <h3 is-upgraded><strong>Sử dụng các câu lệnh di chuyển vừa mới học</strong></h3>
+      <h3 is-upgraded><img style="width: 254.08px" src="img\\5829a7bab9fec1c5.png"><img style="width: 265.50px"
+          src="img\\618fdc96c63dc4ad.png"><img style="width: 357.48px" src="img\\f518e8bf7e756549.png"></h3>
+      <h3 is-upgraded><strong>Thay đổi hiệu ứng màu ( Change color ... ) để tạo 1 tấm thiệp sinh nhật điện tử để gửi tới
+          bạn bè hoặc người thân nhé</strong></h3>
+      <h3 is-upgraded><img style="width: 722.00px" src="img\\12f24e9bc2bdba09.png"></h3>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Xác định vị trí của nhân vật" duration="10">
+      <h2 is-upgraded><strong>Các câu lệnh sử dụng trong dự án: </strong></h2>
+      <h3 is-upgraded><strong>Vị trí của nhân vật (Position)</strong></h3>
+      <p>Làm thế nào có thể di chuyển nhân vật từ trái sang phải hay từ trên xuống dưới nhỉ? Chúng ta sẽ cùng nhau học
+        về các xác định vị trí và câu lệnh <strong>Thay đổi x/y 1 lượng hoặc là câu lệnh &#39;&#39;Change x/y by
+          ...</strong>&#39;&#39; nếu bạn nào sử dụng ngôn ngữ là tiếng Anh nhé.</p>
+      <p class="image-container"><img style="width: 601.70px" src="img\\a73d29c10305ad88.png"></p>
+      <ol type="1" start="1">
+        <li><strong>Vị trí ở sân khấu của Scratch có: </strong></li>
+      </ol>
+      <ul>
+        <li>Vị trí theo chiều ngang <strong>X</strong> trong khoảng từ -240 đến 240 (pixels)</li>
+        <li>Vị trí theo chiều dọc <strong>Y</strong> trong khoảng từ -180 đến 180 (pixels)</li>
+      </ul>
+      <ol type="1" start="2">
+        <li><strong>Câu lệnh Thay đổi x/y 1 lượng - </strong>&#39;&#39;Change x/y by ...<strong>&#39;&#39;</strong></li>
+      </ol>
+      <p>Dùng để thay đổi vị trí nhân vật theo tọa độ x hoặc y </p>
+      <p>Ví dụ:</p>
+      <ul>
+        <li><strong>Thay đổi x một lượng 10 </strong>hay Change x by 10, nhân vật sẽ di chuyển theo chiều ngang, từ trái
+          qua phải 1 khoảng bằng 10 pixel </li>
+        <li><strong>Thay đổi y một lượng 10 </strong>hay Change y by -10, nhân vật sẽ di chuyển theo chiều dọc, từ trên
+          xuống dưới 1 khoảng bằng 10 pixel</li>
+      </ul>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Di chuyển nhân vật" duration="10">
+      <table>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p>Câu lệnh</p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Ý nghĩa </p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 202.00px" src="img\\4d8fa20333623863.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Nhân vật di chuyển tới tọa độ (0,0) </p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 271.50px" src="img\\a075937b10a46aea.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Nhân vật lướt tới tọa độ (0,0)</p>
+          </td>
+        </tr>
+      </table>
+      <p>* Chú ý:</p>
+      <ul>
+        <li>Trên thực tế, câu lệnh <strong>Đi tới điểm x ... y... (Go to x ... y ... ) </strong> thường để đặt vị trí
+          ban đầu cho nhân vật chứ không dùng để di chuyển</li>
+        <li>Mẹo nhỏ: Để không phải nhớ tọa độ ta kéo thả nhân vật đến vị trí mới rồi mới kéo câu lệnh <strong>Đi tới
+            điểm x ... y ... (hoặc là câu lệnh Go to x... y...)</strong> hay <strong>Lướt trong ... giây tới ... (Glide
+            in ... second to ...)</strong> ra, thì lúc đó tọa độ ở vị trí mới sẽ được tự động điền vào câu lệnh</li>
+        <li>Muốn làm cho nhân vật đi nhanh hơn hay chậm hơn thì điều chỉnh thông số gì ở câu lệnh <strong>Lướt trong ...
+            giây tới .... ( Glide... in second to ... )</strong></li>
+      </ul>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Thay đổi màu sắc cho nhân vật" duration="10">
+      <table>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p>Câu lệnh</p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Ý nghĩa </p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 246.50px" src="img\\748e17444b1f0e.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Đặt màu sắc nhân vật mặc định màu sắc số 0</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 231.50px" src="img\\5a9fa41791f3e583.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p>Thay đổi màu sắc nhân vật màu sắc số 25</p>
+          </td>
+        </tr>
+      </table>
+      <p>Dải màu sắc:</p>
+      <p class="image-container"><img style="width: 489.33px" src="img\\4afed6d9d562592b.png"></p>
+      <ul>
+        <li>Dải màu sắc dải được đánh số từ 0-200, mỗi số sẽ ứng với 1 màu khác nhau, ví dụ số 30 là màu vàng, 130 là
+          màu xanh dương và 200 là màu đỏ đậm</li>
+        <li>Nếu điền số &gt; 200 thì màu sắc sẽ về mặc định là 0 </li>
+      </ul>
+      <p>Vậy chúng mình hãy chạy thử đoạn lệnh (code) sau để thấy điều gì xảy ra nhé!!!!!!!</p>
+      <table>
+        <tr>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 302.09px" src="img\\726c9461258438c.png"></p>
+          </td>
+          <td colspan="1" rowspan="1">
+            <p class="image-container"><img style="width: 173.33px" src="img\\8e6640ed98f6dd47.png"></p>
+          </td>
+        </tr>
+      </table>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Hướng dẫn chi tiết các bước thực hiện dự án" duration="10">
+      <p>Dự án của chúng ta sẽ có dạng như sau:</p>
+      <p class="image-container"><img style="width: 409.15px" src="img\\24ccf52d89d705b5.png"></p>
+      <p>Đầu tiên, chúng ta cần xác định các nhân vật (<strong>Sprite</strong>) cần có trong tấm thiệp sinh nhật. Tấm
+        thiệp của chúng ta sẽ bao gồm các nhân vật (<strong>Sprite</strong>) sau đây:</p>
+      <ul>
+        <li><strong>Chong chóng: </strong>Thiết kế chong chóng và đặt cố định ở sân khấu</li>
+      </ul>
+      <p class="image-container"><img style="width: 103.63px" src="img\\5023bf041089c1e9.png"></p>
+      <ul>
+        <li><strong>Bóng bay: </strong>Khi chạy chương trình, bóng bay xuất hiện ở vị trí ngẫu nhiên và bay từ dưới lên
+        </li>
+      </ul>
+      <p class="image-container"><img style="width: 64.36px" src="img\\53b066b83c298984.png"></p>
+      <ul>
+        <li><strong>Chữ Happy Birthday: </strong>Được đặt cố định trên sân khấu</li>
+      </ul>
+      <p class="image-container"><img
+          alt="Birthday Cake Happy Birthday To You Clip Art - Happy 7th Birthday Words -  Png Download (#3220815) - PikPng"
+          style="width: 253.15px" src="img\\fc425d00e372ccd9.png"></p>
+      <ul>
+        <li><strong>Bánh sinh nhật: </strong>Cứ 0,5 giây chuyển động trạng thái tắt/ bật nến mãi mãi</li>
+      </ul>
+      <p class="image-container"><img style="width: 122.58px" src="img\\23cc1592b6dde975.png"></p>
+      <ul>
+        <li><strong>Ngôi sao: </strong>Ngôi sẽ được trang trí xung quanh phần thiệp. Các ngôi sao sẽ có hiệu ứng đổi màu
+          và nhấp nháy</li>
+      </ul>
+      <p class="image-container"><img style="width: 85.33px" src="img\\2ac590e5ac8c5b5c.png"></p>
+      <p><strong>Sau khi đã biết được các đối tượng cần có trong tấm thiệp, chúng mình cùng bắt tay thực hiện
+          nhé!</strong></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Phần 1: Chọn phông nền tấm thiệp theo ý thích" duration="5">
+      <p class="image-container"><img style="width: 298.50px" src="img\\9e523ec9e0b301f0.png"><img
+          style="width: 459.52px" src="img\\d454bbd679fd2b47.png"></p>
+      <p>Các bạn sau khi chọn Tải phông nền (upload), chọn phông nền xong, chúng mình sẽ kéo ảnh nền ( background ) vừa
+        mới tải lên sao cho ảnh rộng khắp sân khấu</p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Phần 2: Thiết kế chong chóng" duration="10">
+      <p><strong>B1</strong>: Vào phần thiết kế (costume) và vẽ 1 hình chữ nhật </p>
+      <p class="image-container"><img style="width: 277.62px" src="img\\eaa6fbb882326986.png"></p>
+      <p><strong>B2:</strong> Điều chỉnh hình dạng hình chữ nhật thành hình thang vuông và đặt vào tâm hình vẽ</p>
+      <p class="image-container"><img style="width: 278.00px" src="img\\3b6c96f23be966cf.png"></p>
+      <p><strong>B3:</strong> Sao chép (copy) ( <em>Ấn đồng thời 2 phím Ctrl và C để sao chép (Copy) - Ấn đồng thời 2
+          phím Ctrl và V để tạo ra bản sao của thứ vừa sao chép (Paste) </em>) hình thang vừa rồi thành 4 hình giống
+        nhau và sắp xếp tạo thành cánh quạt chong chóng<img style="width: 273.00px" src="img\\7f916412b37c6e32.png"></p>
+      <p>Sau đó các bạn hãy thay đổi màu sắc theo ý thích và thành quả đây!!! </p>
+      <p class="image-container"><img style="width: 259.50px" src="img\\5023bf041089c1e9.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Phần 3: Lập trình quả bóng bay" duration="10">
+      <p><strong>B1</strong>: Chọn nhân vật bóng bay từ thư viện có sẵn</p>
+      <p class="image-container"><img style="width: 232.50px" src="img\\27ee5ae33d08952a.png"></p>
+      <p><strong>B2:</strong> Lập trình quả bóng bay xuất hiện ở vị trí ngẫu nhiên</p>
+      <p><em>Chú ý: Tọa độ x sẽ xuất hiện trong khoảng -240 đến 240, và do quả bóng bay từ dưới sân khấu nên tọa độ
+          y=-180 </em></p>
+      <p class="image-container"><img style="width: 375.50px" src="img\\99699a3e47816087.png"></p>
+      <p><strong>B3:</strong> Lập trình quả bóng bay lên, tức ta sẽ thay đổi vị trí y của quả bóng tăng lên 10-30 pixel,
+        mỗi lần bay cách nhau 0,1 giây</p>
+      <p class="image-container"><img style="width: 370.24px" src="img\\e775cb379476d74b.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Phần 4: Sáng tạo" duration="10">
+      <ol type="1" start="1">
+        <li>Lựa chọn chữ <strong>Happy birthday</strong> để đưa vào vị trí trung tâm của tấm thiệp (ảnh này có sẵn nằm
+          trong thư mục material (<a
+            href="https://drive.google.com/file/d/1D0JHqNuITnH9qFjsprMqh-m3u2bkhXYv/view?usp=sharing"
+            target="_blank"><paper-button class="colored" raised>hoặc các bạn có thể click vào đây</paper-button></a> ),
+          các bạn tải xuống máy mình rồi tải lên scratch nha)</li>
+      </ol>
+      <p class="image-container"><img style="width: 218.84px" src="img\\a08577f72800df9e.png"></p>
+      <ol type="1" start="2">
+        <li>Lập trình cho chiếc bánh sinh nhật </li>
+      </ol>
+      <p><strong>B1:</strong> Chọn nhân vật bánh sinh nhật</p>
+      <p class="image-container"><img style="width: 264.00px" src="img\\8282d3affd9cf515.png"></p>
+      <p><strong>B2:</strong> Lập trình chiếc bánh sinh nhật thay đổi trạng thái tắt/ bật nến liên tục và mỗi lần thay
+        đổi cách nhau 0.1 giây</p>
+      <p class="image-container"><img style="width: 159.50px" src="img\\bd1f99029683f804.png"></p>
+      <ol type="1" start="3">
+        <li>Lập trình ngôi sao </li>
+      </ol>
+      <p><strong>B1: </strong>Chọn nhân vật ngôi sao</p>
+      <p class="image-container"><img style="width: 295.50px" src="img\\6550c246a28020c2.png"></p>
+      <p><strong>B2:</strong> Lập trình ngôi sao sẽ có hiệu ứng đổi màu và nhấp nháy</p>
+      <p class="image-container"><img style="width: 255.50px" src="img\\3ae13ad1ef820c9d.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Phần 5: Hoàn thành tấm thiệp và trang trí theo ý thích" duration="1">
+      <p class="image-container"><img style="width: 565.00px" src="img\\24ccf52d89d705b5.png"></p>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Câu hỏi đánh giá kiến thức" duration="20">
+      <aside class="special">
+        <p>⏰ Hãy tự tin và nhớ để ý thời gian (nếu có) nhé, bài kiểm tra đơn giản thôi 🎉🎉🎉</p>
+      </aside>
+      <p>Nếu bạn không thể xem được, hãy <a href="https://forms.gle/TFWABjCDQcfMxdEw7" target="_blank"><paper-button
+            class="colored" raised>click vào đây</paper-button></a> để xem trực tiếp nội dung.</p>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdPX-yH38tDgTEggqFrNzh2hrlgoAhE7EnCKzRavzD5yxM47w/viewform?embedded=true"
+        width="752" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Đóng góp ý kiến" duration="3">
+      <p>Bạn hãy đóng góp ý kiến về nội dung đã học nhé</p>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSddEDBgMcdsCEXqpXMSaigPSIFnXd4f2B6pdceQYkV_EmTVzg/viewform?embedded=true"
+        width="752" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+    </google-codelab-step>
+
+    <google-codelab-step label="Chúc mừng bạn đã hoàn thành xuất sắc" duration="1">
+      <p class="image-container"><img style="width: 624.00px" src="img\\909f4d7861b14330.png"></p>
+
+
+    </google-codelab-step>
+
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+
+</html>
